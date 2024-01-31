@@ -1,0 +1,20 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.SimpleCameraMobileApp" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="colorPrimary">#3e6975</item>
+        <!-- Secondary brand color. -->
+    </style>
+
+    <style name="Theme.SimpleCameraMobileApp" parent="Base.Theme.SimpleCameraMobileApp" />
+
+    <style name="CornerCut" parent="">
+        <item name="cornerSize">@dimen/_30sdp</item>
+
+    </style>
+    <style name="DialogCustomTheme" parent="android:Theme.Holo.Dialog.NoActionBar">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+    </style>
+</resources>
